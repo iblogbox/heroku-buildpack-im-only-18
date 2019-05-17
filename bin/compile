@@ -58,9 +58,9 @@ echo "-----> New18, imagemagick-lib-18"
 mkdir -p "$BUILD_DIR/vendor/im"
 tar -xzf "$SOURCE_DIR/imagemagick-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
 
-echo "-----> New18, inkscape-lib-18"
-mkdir -p "$BUILD_DIR/vendor/im"
-tar -xzf "$SOURCE_DIR/inkscape-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
+#echo "-----> New18, inkscape-lib-18"
+#mkdir -p "$BUILD_DIR/vendor/im"
+#tar -xzf "$SOURCE_DIR/inkscape-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
 
 
 echo "-----> Copying files to $TARGET_DIR"
