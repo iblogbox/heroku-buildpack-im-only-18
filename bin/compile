@@ -99,6 +99,9 @@ cp "$SOURCE_DIR/libpng16.so" "$TARGET_DIR"
 chmod +x "$SOURCE_DIR/bpgenc"
 cp "$SOURCE_DIR/bpgenc" "$TARGET_DIR"
 
+#copy delegates.xml, remove jxr -c 0
+cp "$SOURCE_DIR/delegates.xml" "$BUILD_DIR/vendor/ImageMagick-6.9.3-2/etc/ImageMagick-6/delegates.xml"
+
 # update PATH and LD_LIBRARY_PATH
 echo "-----> Updating environment variables"
 PROFILE_PATH="$BUILD_DIR/.profile.d/im.sh"
